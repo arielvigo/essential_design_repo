@@ -1,0 +1,68 @@
+
+
+
+// FOR
+
+
+.galeriaSassScript {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+
+}
+
+.color{
+    width: 50px;
+    height: 50px;
+}
+
+@for $i from 1 through 25 {
+    .color:nth-child(#{$i}) {
+     background-color: lighten(black, $i * 4);
+    }
+
+}
+
+
+
+.contenedorGaleriaBorderMix{
+    display: flex;
+}
+
+
+@mixin contenedorGaleriaBorder ($borderImgGal, $borderShadow, $borderColor) {
+    margin: 2em;
+    max-width: 300px;
+    padding: 2em;
+    box-shadow: $borderShadow;
+    align-self: center;
+    border: $borderImgGal;
+    border-color: $borderColor;
+}
+
+
+.imgSassMix1 {
+@include contenedorGaleriaBorder (5px solid, 0 10px 30px -10px rgba(0,0,0,.45), rgba(88, 17, 17, 0.45))
+}
+
+.imgSassMix2 {
+@include contenedorGaleriaBorder (2px solid, 0 10px 30px -10px rgba(0,0,0,.45),rgba(212, 44, 44, 0.45))
+}
+
+.imgSassMix3 {
+@include contenedorGaleriaBorder (0px, 0 10px 30px -10px rgba(0,0,0,.45), rgba(78, 28, 124, 0.45))
+}
+
+.contenedorBucleTexto{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+
+}
+
+@for $i from 1 through 6 {
+    .parrafo:nth-child(#{$i}){
+        font-size: $i *.5rem;
+    }
+}

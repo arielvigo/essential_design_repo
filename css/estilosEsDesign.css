@@ -1,0 +1,523 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* Estilos de Letras*/
+
+.robotoCond{font-family: 'Roboto Condensed', sans-serif;}
+
+
+.robotoCondSize{
+  color:rgb(104, 104, 104);
+  font-size: 22px;
+}
+
+
+.oswald{font-family: 'Oswald', sans-serif;}
+
+.watchText{
+  font-size: 1.5rem;
+}
+
+.watchTime{
+  font-size: 2.5rem;
+}
+
+.homemadeApple {
+font-family: 'Homemade Apple', cursive;
+font-size: 50px;
+}
+
+.leagueScript {
+font-family: 'League Script', cursive;}
+
+.raleway{
+font-family: 'Raleway', sans-serif;
+}
+
+.reenieBeanie{
+font-family: 'Reenie Beanie', cursive;
+}
+
+.robotoSans{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
+
+
+
+
+.cedarville{
+  font-family: 'Cedarville Cursive', cursive ;
+}
+
+.dawningDay{
+  font-family: 'Dawning of a New Day', cursive ;
+}
+
+.h1LeagueScript{
+    color: rgb(59, 59, 59);
+    font-size: 40px;
+    font-family:  'League Script', cursive;
+    text-align: center;
+  }
+
+.h1Nosotros{
+margin: 5px;
+text-align: center;
+padding: 15px;
+}
+
+  /*
+h2{
+    color:rgb(90, 88, 88);
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }*/
+ 
+.dropdown-menu{
+    background-color:rgb(238, 238, 238) !important;
+    border: 0;
+}
+
+
+header {
+   
+    padding: 35px;
+     background-color: rgb(238, 238, 238);
+     color: rgb(141, 141, 141);
+     text-decoration:none;
+     list-style-type: none;
+     font-family: 'Roboto', sans-serif;
+     font-size: 15px;
+     }
+ 
+
+footer{
+    text-align: left;
+    background-color: rgb(241, 241, 241);
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    height: 40 px;
+ 
+        } 
+
+  
+footer a{
+    text-align: center;
+    padding: 3px;
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+         } 
+
+.centrarParPad{
+  text-align: center;
+  margin: 0;
+  }         
+
+footer p{
+          color: rgb(71, 71, 71);
+          font-size: 15px;
+          text-align: left;
+          font-family: 'Roboto', sans-serif;
+          }      
+      
+
+
+p{  
+   color: rgb(66, 64, 64);
+   font-size: 20px;
+   
+   }            
+
+
+form{
+      border-color: white;
+    }
+
+input, textarea {
+      border: 1px solid;
+      border-color: rgb(224, 224, 224);
+  }
+
+  /* Utilizo como clase para lo imput de File*/
+  .inputStylefile{
+    border: 0px solid;
+    }
+/* Utilizo para quitar el borde del formulario*/
+fieldset {
+    border-style: none;    
+     }
+
+     legend {
+      background-color: gray;
+      color: white;
+      padding: 5px 10px;
+      font-size: 20px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   .imageIndexSection1{
+    background-image: url("../imagenes/Logo/baner.png");
+    background-repeat: no-repeat;
+     }
+  
+  .imageIndexSection2{
+    background-image: url("../imagenes/Fondos/index_section_2_ni_1300.png");
+    background-repeat: no-repeat;
+    width: 1300 px;
+    height: 750px;
+  }
+  
+  .imageIndexSection3{
+    background-image: url("../imagenes/Fondos/index_section_3_op_1300.png");
+    background-repeat: no-repeat;
+    width: 1300 px;
+   
+  }
+  
+  .imageFormContact{
+    background-image: url("../Imagenes/fondos/contactanos_atencion_cliente_1a.png");
+    background-repeat: no-repeat;
+    }
+    
+    .imageFormAsesor{
+    background-image: url("../Imagenes/fondos/Fondo_corto_2.jpg");
+    background-repeat: no-repeat;
+    }
+
+ 
+.navegacion{
+	width: 100%;
+	/*margin: 5px auto;*/
+ 
+	background-color: transparent;
+    text-align: center;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+/*
+.menuMargen{
+  margin-bottom: 0;
+}*/
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 15px;
+	color: #313131;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #2d5530;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background-color: #9c1313;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: rgb(43, 41, 43);
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background-color: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity: 1;
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+  position:fixed;
+  /*bottom: 10px;*/
+  right: 20px;
+}
+
+
+/*Nosotros*/
+
+.minusPad{
+  padding: 2px;
+}
+.minusMar{
+
+  margin: 0px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.bi{
+  vertical-align: -.125em;
+}
+
+
+/*Intro video temporada*/
+
+.headerStyle {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.justifyWhite{
+  color: white;
+ /* text-align: justify;*/
+  text-align: inherit;
+  padding:  0px 38px 0px 38px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+  .display-3{
+    font-size: 3rem !important;
+  }
+  
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+
+ 
+
+    .watchText{
+      font-size: 1.2rem !important;
+    }
+    
+    .watchTime{
+      font-size: 2.3rem !important;
+    }
+
+    .display-3{
+      font-size: 2.7rem !important;
+    }
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 980px) {
+  .display-3{
+    font-size: 2.5rem !important;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 770px) {
+
+  .robotoCondSize{
+    font-size: 14px;
+  }
+
+  .homemadeApple {
+    font-size: 35px;
+    }
+
+    .watchText{
+      font-size: 0.8rem !important;
+    }
+    
+    .watchTime{
+      font-size: 1.2rem !important;
+    }
+
+    .display-3{
+      font-size: 2.3rem !important;
+    }
+    
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  .robotoCondSize{
+    font-size: 12px;
+  }
+
+  .homemadeApple {
+    font-size: 25px;
+    }
+
+    
+    .watchText{
+      font-size: 0.8rem !important;
+    }
+    
+    .watchTime{
+      font-size: 1.2rem !important;
+    }
+
+    .display-3{
+      font-size: 1.9rem !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+
+  .robotoCondSize{
+    font-size: 9px;
+  }
+
+  .homemadeApple {
+    font-size: 13px;
+    }
+
+  .lead{
+
+  font-size: 0.7rem ;
+  }
+
+  .watchText{
+    font-size: 0.5rem !important;
+  }
+  
+  .watchTime{
+    font-size: 0.8rem !important;
+  }
+
+  footer{
+    font-size: 12px;
+        } 
+
+  
+footer a{
+    font-size: 12px;
+         } 
+
+footer p{
+    font-size: 12px;
+          }  
+
+h5 {
+  font-size: 14px !important;
+}
+
+.form-control{
+  font-size: 00.7rem !important;
+}
+
+.btn{
+  font-size: 00.7rem !important;
+}
+
+.display-3{
+  font-size: 1.7rem !important;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+
+  .robotoCondSize{
+    font-size: 7px;
+  }
+
+  .homemadeApple {
+    font-size: 11px;
+    }
+
+  .lead{
+
+  font-size: 0.5rem ;
+  }
+
+  .watchText{
+    font-size: 0.3rem !important;
+  }
+  
+  .watchTime{
+    font-size: 0.5rem !important;
+  }
+  .form-control{
+    font-size: 00.5rem !important;
+  }
+  
+  .btn{
+    font-size: 00.5rem !important;
+  }
+}

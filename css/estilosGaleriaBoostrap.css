@@ -1,0 +1,195 @@
+/**{
+    Margin: 0;
+}*/
+
+a, a:hover, a:focus {
+    text-decoration: none;
+   /* background-color:rgb(117, 117, 117);*/
+    color: rgb(63, 63, 63);
+}
+
+.nav-pills{
+    background-color: transparent;
+}
+
+.colorH2{
+    color:rgb(49, 49, 49);
+}
+
+
+.colorH2Blanco{
+    color:rgb(255, 255, 255);
+}
+
+.colorFondoOferta{
+    background-color: #DEEBF7;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      }
+
+/*
+.nav-center {  
+  text-align: center;
+  ul nav {
+    display: inline-block;
+    li {
+      display: inline
+      
+      }
+    }
+  }
+}*/
+
+/* Fondo capa boostrap de html productos sillas y lamparas*/
+.fondoSillas
+
+    {background-color: #fce6ef;}
+
+.centrarTexto{
+    text-align: center;
+}
+
+/*
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link  {
+    background-color:#f0f0f0 ;
+    color: grey;
+}
+
+.nav-pills .nav-pills  {
+    background-color:#f0f0f0 ;
+    color: grey;
+}*/
+
+.fondoLamparas
+
+    {background-color: #dbf1ff;}
+
+.fondoNiBsSa
+    {background-color: #f0f0f0;}
+
+#galeria p{
+    margin: 0;
+}    
+
+/* Fondo capa boostrap de html productos sillas y lamparas*/
+#galeria img{
+    width: 100%;   
+}
+
+/*Efecto de imagen al pasar mouse*/
+#galeria img:hover {
+    border: 10px solid transparent;
+}
+
+
+/* Slider fotos responsive*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;}
+
+
+
+/*Color botones Sillas*/
+
+.btn-sample { 
+    color: #ffffff; 
+    background-color: #C9C1D4; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-sample:hover, 
+  .btn-sample:focus, 
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    color: #ffffff; 
+    background-color: #A8A8A8; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    background-image: none; 
+  } 
+   
+  .btn-sample.disabled, 
+  .btn-sample[disabled], 
+  fieldset[disabled] .btn-sample, 
+  .btn-sample.disabled:hover, 
+  .btn-sample[disabled]:hover, 
+  fieldset[disabled] .btn-sample:hover, 
+  .btn-sample.disabled:focus, 
+  .btn-sample[disabled]:focus, 
+  fieldset[disabled] .btn-sample:focus, 
+  .btn-sample.disabled:active, 
+  .btn-sample[disabled]:active, 
+  fieldset[disabled] .btn-sample:active, 
+  .btn-sample.disabled.active, 
+  .btn-sample[disabled].active, 
+  fieldset[disabled] .btn-sample.active { 
+    background-color: #C9C1D4; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-sample .badge { 
+    color: #C9C1D4; 
+    background-color: #ffffff; 
+  }
+
+
+  .btn-green { 
+    color: #ffffff; 
+    background-color: #65C276; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-green:hover, 
+  .btn-green:focus, 
+  .btn-green:active, 
+  .btn-green.active, 
+  .open .dropdown-toggle.btn-green { 
+    color: #ffffff; 
+    background-color: #99B8AE; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-green:active, 
+  .btn-green.active, 
+  .open .dropdown-toggle.btn-green { 
+    background-image: none; 
+  } 
+   
+  .btn-green.disabled, 
+  .btn-green[disabled], 
+  fieldset[disabled] .btn-green, 
+  .btn-green.disabled:hover, 
+  .btn-green[disabled]:hover, 
+  fieldset[disabled] .btn-green:hover, 
+  .btn-green.disabled:focus, 
+  .btn-green[disabled]:focus, 
+  fieldset[disabled] .btn-green:focus, 
+  .btn-green.disabled:active, 
+  .btn-green[disabled]:active, 
+  fieldset[disabled] .btn-green:active, 
+  .btn-green.disabled.active, 
+  .btn-green[disabled].active, 
+  fieldset[disabled] .btn-green.active { 
+    background-color: #65C276; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-green .badge { 
+    color: #65C276; 
+    background-color: #ffffff; 
+  }
+
+
+
+
+
+  

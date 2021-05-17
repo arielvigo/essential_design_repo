@@ -1,0 +1,233 @@
+
+/*Galeria de Imagenes modal y hover*/
+
+
+.fontAntonio{
+  font-family: 'Antonio', sans-serif;}
+  
+  .fontBebas{
+  font-family: 'Bebas Neue', cursive;}
+  
+  .fontDancing{
+  font-family: 'Dancing Script', cursive;
+font-size: 90px;
+color: white;
+padding-top: 50px;
+text-shadow: 0px 0px 13px #393939;}
+  
+  .fontHind{
+  font-family: 'Hind', sans-serif;
+  font-size: 90px;
+  color: white;
+  text-shadow: 0px 0px 13px #393939;}
+  
+  .fontGreatVibes{
+  font-family: 'Great Vibes', cursive;
+  font: 25px;
+}
+
+.centrarTitulos{
+  margin-left:80px; 
+  text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
+
+.gallery{
+	padding: 30px 0;
+	align-items: center;
+	}
+  
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+.brilloImagen{
+	filter: brightness(70%);
+	 }
+  
+
+  .brilloImagen:hover{
+	filter: brightness(100%);
+   }
+
+
+  /* Botos Izquierda Hover*/
+.sidenav a {
+  position: fixed;
+  left: -92px;
+  transition: 0.3s;
+  padding: 12px 20px 12px 0px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  left: 0;
+}
+
+#sillas {
+  top: 120px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0.3507673333005077) 0%, rgba(0,0,0,0.8745768571100315) 70%);
+}
+
+#lamparas {
+  top: 180px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0.3507673333005077) 0%, rgba(0,0,0,0.8745768571100315) 70%);
+}
+
+#deco {
+  top: 240px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0.3507673333005077) 0%, rgba(0,0,0,0.8745768571100315) 70%);
+}
+
+#beneficio {
+  top: 300px;
+  background: rgb(33,168,64);
+background: linear-gradient(90deg, rgba(211, 212, 212, 0.306) 0%, rgb(57, 58, 57) 70%);
+}
+
+
+
+
+/* Menu hamburguesa con Modal*/
+
+  
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+
+  @media only screen and (max-device-width:900px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 15px}
+    .fontDancing{font-size: 65px}
+    .fontHind{font-size: 65px}
+    .centrarTitulos{
+      margin-left:30px}
+    .overlay .closebtn {
+    font-size: 20px !important;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+
+
+  @media only screen and (max-device-width:750px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 15px}
+    .fontDancing{font-size: 50px}
+    .fontHind{font-size: 50px}
+    .centrarTitulos{
+      margin-left:30px}
+    .overlay .closebtn {
+    font-size: 20px !important;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+  @media only screen and (max-device-width: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 15px}
+    .fontDancing{font-size: 40px}
+    .fontHind{font-size: 33px}
+    .centrarTitulos{
+      margin-left:30px}
+    .overlay .closebtn {
+    font-size: 20px !important;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  @media only screen and (max-device-width: 300px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 15px}
+    .fontDancing{font-size: 25px}
+    .fontHind{font-size: 17px}
+    .centrarTitulos{
+      margin-left:30px}
+    .overlay .closebtn {
+    font-size: 20px !important;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+  .fondoImagenTempInvierno{
+  background-image: url("../imagenes/Invierno_2021/sImgFondoGaleria.jpg"); 
+  height: auto;  
+  max-width: 100%;
+  background-repeat: none;}
+
+  .navModal{
+    font-size:35px;
+    padding-left: 5px;
+    width: 100%; 
+    position: fixed; 
+    background: rgba(90, 90, 90, 0.4); 
+  }
+
+  .punteroMouse{
+    cursor:pointer; 
+  }

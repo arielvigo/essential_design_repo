@@ -1,0 +1,280 @@
+/* Galeria BEM cards*/
+.contenedorCards {
+  display: flex; }
+  .contenedorCards__cards {
+    margin: 2em;
+    max-width: 300px;
+    padding: 2em;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+    align-self: center; }
+    .contenedorCards__cards--bodyTitulo1 {
+      color: grey;
+      text-align: center;
+      margin: 0; }
+    .contenedorCards__cards--bodyText1 {
+      color: grey;
+      text-align: center;
+      margin: 0;
+      padding-bottom: 1em; }
+    .contenedorCards__cards--bodyTitulo2 {
+      color: white;
+      text-align: center;
+      margin: 0; }
+    .contenedorCards__cards--bodyText2 {
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding-bottom: 1em; }
+    .contenedorCards__cards--white {
+      background: white; }
+    .contenedorCards__cards--dark {
+      background: #333;
+      color: white; }
+
+/*BORRAR cuadrado con circulo*/
+.component {
+  display: block;
+  max-width: 30rem;
+  min-height: 30rem;
+  margin: 5rem auto;
+  background: rebeccapurple;
+  position: relative;
+  border: 1px dashed rebeccapurple; }
+  .component__child-element {
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    background: white; }
+
+.component:first-child {
+  margin-top: 0; }
+
+/* sideNav botones*/
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif; }
+
+.sideNav__boton {
+  position: fixed;
+  left: -92px;
+  width: 120px;
+  padding: 12px 20px 12px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: 0.3s;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  width: 120px;
+  background: white;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.350767) 0%, rgba(0, 0, 0, 0.874577) 70%); }
+  .sideNav__boton--top1 {
+    top: 120px; }
+    .sideNav__boton--top1:hover {
+      left: 0;
+      color: white; }
+  .sideNav__boton--top2 {
+    top: 180px; }
+    .sideNav__boton--top2:hover {
+      left: 0;
+      color: white; }
+  .sideNav__boton--top3 {
+    top: 240px; }
+    .sideNav__boton--top3:hover {
+      left: 0;
+      color: white; }
+  .sideNav__boton--top4 {
+    top: 300px; }
+    .sideNav__boton--top4:hover {
+      left: 0;
+      color: white; }
+
+/*Footer*/
+.contenedorBotones {
+  /*display: grid;
+  place-content: center;
+  height: 100px;*/
+  max-width: 100%;
+  background: #eeeeee;
+  font-family: 'Nunito', sans-serif; }
+
+.card {
+  padding: 0 5em;
+  cursor: pointer; }
+  .card__img {
+    display: block;
+    height: 30px;
+    width: 100%;
+    background: #e0466b; }
+  .card__content {
+    padding: 1.5em;
+    background: white;
+    align-content: center;
+    text-decoration: none;
+    text-align: center; }
+  .card__list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0; }
+  .card__item {
+    padding: .5em 1em;
+    margin-right: .5em;
+    background: #aaaaaa;
+    border-radius: .3em;
+    font-size: .85em; }
+    .card__item--active {
+      color: white;
+      text-decoration: none;
+      background: #686868;
+      font-weight: bold; }
+  .card__link {
+    color: white;
+    text-decoration: none !important;
+    border-radius: .5em;
+    display: inline-block;
+    margin-top: .5em; }
+    .card__link--item1 {
+      background: #2c8973;
+      border: 0;
+      padding: .5em 1em; }
+      .card__link--item1:hover {
+        background: #267764; }
+    .card__link--item2:hover {
+      background: #3f3f3f;
+      padding: 5px; }
+    .card__link--item3 {
+      color: white;
+      text-decoration: none;
+      padding: .5em 1em; }
+      .card__link--item3:hover {
+        color: white;
+        background: #838383; }
+
+/* Oferta Modal*/
+.overlayOferta {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s; }
+
+.overlayOferta-content2 {
+  margin-top: 30px; }
+
+.overlayOferta a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+.overlayOferta a:hover, .overlayOferta a:focus {
+  color: #f1f1f1; }
+
+.overlayOferta .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px; }
+
+@media screen and (max-height: 450px) {
+  .overlayOferta a {
+    font-size: 20px; }
+  .overlayOferta .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+
+.coupon {
+  border: 5px dotted #bbb;
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 380px;
+  margin-top: 30px; }
+
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1; }
+
+.promo {
+  background: #ccc;
+  padding: 3px; }
+
+.expire {
+  color: red;
+  font-size: 10px; }
+
+.expire2 {
+  color: #747474;
+  font-size: 12px; }
+
+/* Galeria */
+img {
+  max-width: 100%; }
+
+.gallery {
+  padding: 30px 0;
+  align-items: center; }
+
+.gallery img {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer; }
+
+#gallery-modal .modal-img {
+  width: 100%; }
+
+.brilloImagen {
+  filter: brightness(70%); }
+  .brilloImagen:hover {
+    filter: brightness(100%); }
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s; }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+
+.overlayNav {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px; }
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1; }
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px; }

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=”Description” content=” Es una Empresa dedicada al diseño y decoración de hogares y empresas con objetos de máxima calidad”/>
+  <meta name=”Keywords” content=” temporada Otoño invierno 2021, decoración, diseño interior, Sillas, Lamparas, Objetos de diseño, asesoramiento diseño”/>
+  <meta name=”Distribution” content=”Global”/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Dancing+Script&family=Great+Vibes&family=Hind:wght@300&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="../css/styleTemporadaInvierno.css">
+  <link rel="stylesheet" href="../css/estiloBem.css">
+
+<!--  <link rel="stylesheet" type="text/css" href="css/styleTemporadaInvierno.css">
+  <link rel="stylesheet" href="css/estiloBem.css">
+  <title>Temporada Otoño Invierno 2021</title>
+-->
+</head>
+
+<body>
+ 
+   <div class="fondoImagenTempInvierno">
+      <header>
+         <span class="navModal punteroMouse" onclick="openNav()">&#9776; </span>
+       </header>
+   
+   
+   <!-- Bem: Footer - SideNav - Boton para disparar modal oferta - Lista de Temporada Actual-->
+    
+    <!--Nav modal menú hamburguesa-->
+   
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlayNav">
+        <a href="../views/indexHome.html">Home</a>
+        <a href="../views/productos.html">Colecciones</a>
+        <a href="../views/Nosotros.html">Nosotros</a>
+        <a href="../views/contactanosAtCliente.html">Contactános</a>
+        <a href="../views/contactanosAsesor.html">Contactar un Asesor/Diseñador</a>
+      </div>
+
+    </div>
+    
+    <div class="centrarTitulos">
+    
+      <H1 class="fontDancing">Colección</H1>    
+      
+      <h1 class="fontHind"> OTOÑO|INVIERNO</h1>
+    </div>
+
+
+    <!--Galeria de Imagenes Modal y Hover - Ver Lamparas-->
+    <section class="gallery min-vh-100"id="galeriaLamparasInvierno">
+      <div class="container-lg">
+         <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 align-items-center">
+            <div class="col">
+               <img src="../imagenes/Invierno_2021/lImg1.jpeg" class="gallery-item brilloImagen" alt="Galeria Imagen">
+            </div>
+            <div class="col">
+               <img src="../imagenes/Invierno_2021/lImg2.jpeg" class="gallery-item brilloImagen" alt="Galeria Imagen">
+            </div>
+            <div class="col">
+               <img src="../imagenes/Invierno_2021/lImg3.jpeg" class="gallery-item brilloImagen" alt="Galeria Imagen">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   
+   <!-- Galeria efecto Modal -->
+   <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-lg">
+       <div class="modal-content">
+         <div class="modal-header">
+           <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+            <img src="" class="modal-img" alt="modal img" alt="Galeria Imagen">
+         </div>
+       </div>
+     </div>
+   </div>
+
+  
+
+<!-- div imagen fondo-->
+</div>
+
+
+
+<!--Nav botones izquierda-->
+<div class="sideNav fontGreatVibes"> <!-- bloque Nav izquierdo Botones-->
+      
+   <a href="indexGalleryTemporadaInviernoSillas.html" class="sideNav__boton sideNav__boton--top1" >Sillas</a>
+   <a href="indexGalleryTemporadaInviernoLamparas.html" class="sideNav__boton sideNav__boton--top2" >Lamparas</a>
+   <a href="indexGalleryTemporadaInviernoDeco.html" class="sideNav__boton sideNav__boton--top3" >Deco</a>
+   <a href="#" class="sideNav__boton sideNav__boton--top4" id="Inicio">Ir arriba</a>   
+    
+</div>
+
+
+
+<!-- Modal Promo-->
+
+<div id="myNavPromo" class="overlayOferta">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNavPromo()">&times;</a>
+    <div class="coupon overlayOferta-content2">
+     <div class="container ">
+       <h3>Essential Design</h3>
+     </div>
+     <img src="../imagenes/BeneficioDescuento/imagenOferta.jpg" alt="Avatar" style="width:100%;">
+     <div class="container" style="background-color:white">
+       <h2><b>20% OFF en temporada <br> Invierno|2021</b></h2> 
+       <p class="expire2">Incluye promociones bancarias. La promoción se encuentra sujeta a verificación de stock, y es exclusiva para venta a través de la web.
+       </p>
+     </div>
+     <div class="container">
+       <p>Código de Promoción: <span class="promo">ED20DESC</span></p>
+       <p class="expire">Vencimiento: El código es válido hasta 15 días posteriores a la presentación oficial de la Temporada Invierno 2021.</p>
+     </div>
+   </div>
+ </div>
+ 
+
+
+
+
+ <div class="card__content fontAntonio">
+
+   <span class="card__link card__link--item1 punteroMouse" onclick="openNavPromo()"> Conocé el BENEFICIO de esta Temporada </span>
+
+   </div> 
+
+
+</div>
+
+
+
+<!--Div fin Header-->
+</div>
+
+<script>
+   function openNav() {
+     document.getElementById("myNav").style.height = "100%";
+   }
+   
+   function closeNav() {
+     document.getElementById("myNav").style.height = "0%";
+   }
+
+
+   function openNavPromo() {
+   document.getElementById("myNavPromo").style.width = "100%";
+   }
+
+   function closeNavPromo() {
+   document.getElementById("myNavPromo").style.width = "0%";
+   }
+</script>
+
+
+
+
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+.headerStyle  {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+a{
+    color: white;
+}
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.justifyWhite{
+  color: white;
+ /* text-align: justify;*/
+  text-align: inherit;
+  padding:  0px 38px 0px 38px;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+.columAlign{
+  align-items: justify-content-start;}
+
+
+
+@media (max-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 1400px;}
+     
+        .cellSize{flex: 0 0 auto;
+          width: 50%;}
+    }
+
+
+@media (max-width: 992px){ .container, .container-lg, .container-md, .container-sm {
+      max-width: 960px;}
+  }
+  
+@media (max-width: 720px){
+  .container, .container-lg, .container-md, .container-sm {
+      max-width: 720px;}
+     
+      .cellSize{flex: 0 0 auto;
+        width: 100%;}
+      .headerStyle{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+       
+  }
+  
+
+@media (max-width: 300px){
+
+  .cellSize{flex: 0 0 auto;
+    width: 100%;}
+
+    .headerStyle{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+}
+
+  
+
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("../imagenes/Contactanos/contactanos_reserva_asesor.png");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bg-img2 {
+  /* The image used */
+  background-image: url("../imagenes/Contactanos/contactanos_atencion_cliente.png");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

@@ -1,0 +1,125 @@
+$colorTitulo: red;
+$tamañoTitulos: 60px;
+$posicionPantalla1: 120px;
+$posicionPantalla2: 180px;
+$posicionPantalla3: 240px;
+$posicionPantalla4: 300px;
+$colorNavButtonLeft1:  linear-gradient(90deg, rgba(255,255,255,0.3507673333005077) 0%, rgba(0,0,0,0.8745768571100315) 70%);
+$colorNavButtonLeft2:  linear-gradient(90deg, rgba(211, 212, 212, 0.306) 0%, rgb(75, 87, 75) 70%);
+
+
+
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.sidenav 
+    {
+        a {
+            position: fixed;
+            left: -92px;
+            transition: 0.3s;
+            padding: 12px 20px 12px 0px;
+            width: 120px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            text-align: center;
+
+            &:hover{
+              left: 0;
+                   }
+         }
+    }
+
+
+#sillas {
+    top: $posicionPantalla1;
+    background: $colorNavButtonLeft1;
+  }
+  
+  #lamparas {
+    top: $posicionPantalla2;
+    background: $colorNavButtonLeft1;
+  }
+  
+  #deco {
+    top: $posicionPantalla3;
+    background: $colorNavButtonLeft1;
+  }
+  
+  #beneficio {
+    top: $posicionPantalla4;
+    background: rgb(33,168,64);
+    background: $colorNavButtonLeft2;
+  }
+   
+  .gallery{
+	
+   padding: 30px 0;
+   align-items: center;
+      
+    & img{
+      background-color: #ffffff;
+      padding: 15px;
+      width: 100%;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      cursor: pointer;
+    }
+  }
+
+
+    .brilloImagen{
+      filter: brightness(70%);
+         
+      &:hover{
+      filter: brightness(100%);
+       }
+
+      }
+
+      .overlay {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-y: hidden;
+        transition: 0.5s;
+        a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 36px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+      }
+      
+      .overlayNav {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+      
+    
+      .overlay a:hover /*, .overlay a:focus*/ {
+        color: #f1f1f1;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+      }
+      

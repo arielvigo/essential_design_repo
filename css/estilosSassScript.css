@@ -1,0 +1,136 @@
+.galeriaSassScript {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white; }
+
+.color {
+  width: 50px;
+  height: 50px; }
+
+.color:nth-child(1) {
+  background-color: #0a0a0a; }
+
+.color:nth-child(2) {
+  background-color: #141414; }
+
+.color:nth-child(3) {
+  background-color: #1f1f1f; }
+
+.color:nth-child(4) {
+  background-color: #292929; }
+
+.color:nth-child(5) {
+  background-color: #333333; }
+
+.color:nth-child(6) {
+  background-color: #3d3d3d; }
+
+.color:nth-child(7) {
+  background-color: #474747; }
+
+.color:nth-child(8) {
+  background-color: #525252; }
+
+.color:nth-child(9) {
+  background-color: #5c5c5c; }
+
+.color:nth-child(10) {
+  background-color: #666666; }
+
+.color:nth-child(11) {
+  background-color: #707070; }
+
+.color:nth-child(12) {
+  background-color: #7a7a7a; }
+
+.color:nth-child(13) {
+  background-color: #858585; }
+
+.color:nth-child(14) {
+  background-color: #8f8f8f; }
+
+.color:nth-child(15) {
+  background-color: #999999; }
+
+.color:nth-child(16) {
+  background-color: #a3a3a3; }
+
+.color:nth-child(17) {
+  background-color: #adadad; }
+
+.color:nth-child(18) {
+  background-color: #b8b8b8; }
+
+.color:nth-child(19) {
+  background-color: #c2c2c2; }
+
+.color:nth-child(20) {
+  background-color: #cccccc; }
+
+.color:nth-child(21) {
+  background-color: #d6d6d6; }
+
+.color:nth-child(22) {
+  background-color: #e0e0e0; }
+
+.color:nth-child(23) {
+  background-color: #ebebeb; }
+
+.color:nth-child(24) {
+  background-color: whitesmoke; }
+
+.color:nth-child(25) {
+  background-color: white; }
+
+.contenedorGaleriaBorderMix {
+  display: flex; }
+
+.imgSassMix1 {
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  align-self: center;
+  border: 5px solid;
+  border-color: rgba(88, 17, 17, 0.45); }
+
+.imgSassMix2 {
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  align-self: center;
+  border: 2px solid;
+  border-color: rgba(212, 44, 44, 0.45); }
+
+.imgSassMix3 {
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  align-self: center;
+  border: 0px;
+  border-color: rgba(78, 28, 124, 0.45); }
+
+.contenedorBucleTexto {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.parrafo:nth-child(1) {
+  font-size: 0.5rem; }
+
+.parrafo:nth-child(2) {
+  font-size: 1rem; }
+
+.parrafo:nth-child(3) {
+  font-size: 1.5rem; }
+
+.parrafo:nth-child(4) {
+  font-size: 2rem; }
+
+.parrafo:nth-child(5) {
+  font-size: 2.5rem; }
+
+.parrafo:nth-child(6) {
+  font-size: 3rem; }
