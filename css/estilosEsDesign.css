@@ -357,22 +357,11 @@ fieldset {
     }
 
     .display-3{
-      font-size: 2.7rem !important;
+      font-size: 2.5rem !important;
     }
     
 
 }
-
-
-
-
-@media only screen and (max-width: 980px) {
-  .display-3{
-    font-size: 2.5rem !important;
-  }
-
-}
-
 
 
 @media only screen and (max-width: 770px) {
@@ -395,6 +384,10 @@ fieldset {
 
     .display-3{
       font-size: 2.3rem !important;
+    }
+
+    #galeria img {
+      width: 60% !important;
     }
     
 
