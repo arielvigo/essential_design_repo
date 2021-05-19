@@ -192,4 +192,9 @@ a, a:hover, a:focus {
 
 
 
-  
+  @media only screen and (max-width: 890px) {
+  #galeria img {
+    width: 60%;
+  }
+
+}

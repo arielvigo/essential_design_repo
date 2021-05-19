@@ -78,12 +78,6 @@ text-align: center;
 padding: 15px;
 }
 
-  /*
-h2{
-    color:rgb(90, 88, 88);
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-  }*/
  
 .dropdown-menu{
     background-color:rgb(238, 238, 238) !important;
@@ -201,7 +195,7 @@ fieldset {
  
 .navegacion{
 	width: 100%;
-	/*margin: 5px auto;*/
+
  
 	background-color: transparent;
     text-align: center;
@@ -211,10 +205,6 @@ fieldset {
 	list-style: none;
 }
 
-/*
-.menuMargen{
-  margin-bottom: 0;
-}*/
 
 .menu > li{
 	position: relative;
@@ -287,7 +277,6 @@ fieldset {
   width: 200px;
   height: 200px;
   position:fixed;
-  /*bottom: 10px;*/
   right: 20px;
 }
 
@@ -487,6 +476,10 @@ h5 {
 
 .display-3{
   font-size: 1.7rem !important;
+}
+
+.nav-link {
+  padding: .2rem .4rem;
 }
 
 }
