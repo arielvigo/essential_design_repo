@@ -359,8 +359,10 @@ fieldset {
     .display-3{
       font-size: 2.5rem !important;
     }
+    #galeria img {
+      width: 60% !important;
+    }
     
-
 }
 
 
@@ -387,7 +389,7 @@ fieldset {
     }
 
     #galeria img {
-      width: 60% !important;
+      width: 50% !important;
     }
     
 

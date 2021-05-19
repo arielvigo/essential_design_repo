@@ -188,13 +188,3 @@ a, a:hover, a:focus {
     background-color: #ffffff; 
   }
 
-
-
-
-
-  @media only screen and (max-width: 890px) {
-  #galeria img {
-    width: 60% !important;
-  }
-
-}
