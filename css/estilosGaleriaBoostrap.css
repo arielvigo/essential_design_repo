@@ -24,6 +24,10 @@ a, a:hover, a:focus {
 .colorFondoOferta{
     background-color: #DEEBF7;
 }
+.colorFondoOfertaPro{
+  background-color: rgb(237 237 237);
+}
+
 
 .abs-center {
     display: flex;
