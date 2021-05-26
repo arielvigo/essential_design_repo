@@ -7,12 +7,16 @@ body, html {
 
   
   .fondoImagen{ 
-    background-image: url("../imagenes/Logo_Inicio/inicio_web.jpg");
+    background-image: url("../imagenes/inicio/inicioWebN.png");
     height: 100%;
     max-width: 100%;
     background-size: cover;
   }
   
+  .imgLogo{
+    width: 440px;
+    height: 75px;
+  }
   
   .fondoImagen{
     position: relative;
@@ -165,6 +169,11 @@ background-color: black;
   .btn{
     font-size: 0.5rem !important;
   }
+
+.imgLogo{
+    width: 320px;
+    height: 58px;
+  }
 }
 
 
@@ -189,4 +198,10 @@ background-color: black;
 .btn-group-sm{
   font-size: 0.4rem !important;
 }
+
+.imgLogo{
+  width: 220px;
+  height: 43px;
+}
+
 }

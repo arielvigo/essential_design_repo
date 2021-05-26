@@ -99,7 +99,7 @@ header {
      font-family: 'Roboto', sans-serif;
      font-size: 15px;
      }
- 
+
 
 footer{
     text-align: left;
@@ -328,8 +328,10 @@ fieldset {
   padding:  0px 38px 0px 38px;
 }
 
-
-
+.navModal{
+  width: 100%;
+  background: rgba(90, 90, 90, 0.4) !important; 
+}
 
 
 @media only screen and (max-width: 1024px) {
