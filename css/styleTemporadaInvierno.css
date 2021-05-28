@@ -107,6 +107,10 @@ background: linear-gradient(90deg, rgba(211, 212, 212, 0.306) 0%, rgb(57, 58, 57
 
 
 
+.footerCopyright{
+  background-color: rgba(0, 0, 0, 0.2);
+}    
+
 
 /* Menu hamburguesa con Modal*/
 

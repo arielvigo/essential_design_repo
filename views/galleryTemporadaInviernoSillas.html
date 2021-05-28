@@ -139,67 +139,73 @@
 
 <!-- Modal Promo-->
 
-<div id="myNavPromo" class="overlayOferta">
-   <a href="javascript:void(0)" class="closebtn" onclick="closeNavPromo()">&times;</a>
-    <div class="coupon overlayOferta-content2">
-     <div class="container ">
-       <h3>Essential Design</h3>
-     </div>
-     <img src="../imagenes/BeneficioDescuento/imagenOferta.jpg" alt="Avatar" style="width:100%;">
-     <div class="container" style="background-color:white">
-       <h2><b>20% OFF en temporada <br> Invierno|2021</b></h2> 
-       <p class="expire2">Incluye promociones bancarias. La promoción se encuentra sujeta a verificación de stock, y es exclusiva para venta a través de la web.
-       </p>
-     </div>
-     <div class="container">
-       <p>Código de Promoción: <span class="promo">ED20DESC</span></p>
-       <p class="expire">Vencimiento: El código es válido hasta 15 días posteriores a la presentación oficial de la Temporada Invierno 2021.</p>
-     </div>
-   </div>
- </div>
+    <div id="myNavPromo" class="overlayOferta">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNavPromo()">&times;</a>
+        <div class="coupon overlayOferta-content2">
+        <div class="container ">
+          <h3>Essential Design</h3>
+        </div>
+        <img src="../imagenes/BeneficioDescuento/imagenOferta.jpg" alt="Avatar" style="width:100%;">
+        <div class="container" style="background-color:white">
+          <h2><b>20% OFF en temporada <br> Invierno|2021</b></h2> 
+          <p class="expire2">Incluye promociones bancarias. La promoción se encuentra sujeta a verificación de stock, y es exclusiva para venta a través de la web.
+          </p>
+        </div>
+        <div class="container">
+          <p>Código de Promoción: <span class="promo">ED20DESC</span></p>
+          <p class="expire">Vencimiento: El código es válido hasta 15 días posteriores a la presentación oficial de la Temporada Invierno 2021.</p>
+        </div>
+      </div>
+    </div>
+    
+
+
+      <div class="card__content fontAntonio">
+        <span class="card__link card__link--item1 punteroMouse" onclick="openNavPromo()"> Conocé el BENEFICIO de esta Temporada </span>
+      </div> 
+
+
+    </div>
+
+
+</div> <!--Div fin Header-->
+
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+ 
+  
+  <div class="text-center p-3 footerCopyright">
+    © 2021 Copyright. All rights reserved:
+    <a class="text-white" href="https://essentialdesign.com/">essentialdesign.com</a>
+  </div>
  
 
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+ 
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
 
 
+      function openNavPromo() {
+      document.getElementById("myNavPromo").style.width = "100%";
+      }
 
- <div class="card__content fontAntonio">
+      function closeNavPromo() {
+      document.getElementById("myNavPromo").style.width = "0%";
+      }
+    </script>
 
-   <span class="card__link card__link--item1 punteroMouse" onclick="openNavPromo()"> Conocé el BENEFICIO de esta Temporada </span>
-
-   </div> 
-
-
-</div>
-
-
-
-<!--Div fin Header-->
-</div>
-
-<script>
-   function openNav() {
-     document.getElementById("myNav").style.height = "100%";
-   }
-   
-   function closeNav() {
-     document.getElementById("myNav").style.height = "0%";
-   }
-
-
-   function openNavPromo() {
-   document.getElementById("myNavPromo").style.width = "100%";
-   }
-
-   function closeNavPromo() {
-   document.getElementById("myNavPromo").style.width = "0%";
-   }
-</script>
-
-
-
-
-
-<script src="../js/bootstrap.bundle.min.js"></script>
-<script src="../js/main.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
