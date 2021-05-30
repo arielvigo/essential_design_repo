@@ -50,13 +50,6 @@ font-family: 'Reenie Beanie', cursive;
 
 
 
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;*/
-
-
-
-
-
 .cedarville{
   font-family: 'Cedarville Cursive', cursive ;
 }
@@ -91,7 +84,7 @@ padding: 15px;
 
 header {
    
-    padding: 5px 15px 8px 15px;
+    padding: 5px 15px 7px 15px;
      background-color: rgb(218, 218, 218);
      color: rgb(141, 141, 141);
      text-decoration:none;
