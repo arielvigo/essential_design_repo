@@ -71,7 +71,6 @@ body {
   border-radius: 0 5px 5px 0;
   text-align: center;
   width: 120px;
-  background: white;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.350767) 0%, rgba(0, 0, 0, 0.874577) 70%); }
   .sideNav__boton--top1 {
     top: 120px; }

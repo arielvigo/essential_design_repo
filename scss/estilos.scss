@@ -5,7 +5,7 @@ $posicionPantalla2: 180px;
 $posicionPantalla3: 240px;
 $posicionPantalla4: 300px;
 $colorNavButtonLeft1:  linear-gradient(90deg, rgba(255,255,255,0.3507673333005077) 0%, rgba(0,0,0,0.8745768571100315) 70%);
-
+ 
 
 /* Galeria BEM cards*/
 
@@ -84,7 +84,6 @@ body{
     border-radius: 0 5px 5px 0;
     text-align: center;
     width: 120px; 
-    background: rgb(255,255,255);
     background: $colorNavButtonLeft1;
   
       &--top1{
